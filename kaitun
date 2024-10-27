@@ -11413,14 +11413,8 @@ if _G.Switch_Hub_Series_R then
 end
 insert(_G.Keep_Job,tostring(game.JobId))
 							SendFullMoon('https://discord.com/api/webhooks/1215929078532542535/7ykd5BrmfvV7ewPwZ1rXilB-5u1qOMKBPr8P2eKXpzmGnejQ7hji13V4Et7eV64tACun')
-							return
-						end	
-						wait(10)
-					end
-				end)
-			end
-		end)
-	elseif New_World then
+							returnwait(10)
+						
 		spawn(function()
 			while wait(1) do
 				pcall(function()
@@ -11439,19 +11433,10 @@ insert(_G.Keep_Job,tostring(game.JobId))
 				end)
 			end
 		end)
-	end
-
-end
 
 						Check_Raid = true
-					end
 					wait(60)
-				else
 					wait(5)
-				end
-			end)
-		end
-	end)
 
 
 
@@ -11673,5 +11658,3 @@ end
 			end
 		end)
 	end
-
-end
